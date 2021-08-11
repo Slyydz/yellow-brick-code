@@ -1,0 +1,59 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    
+}
+
+.main_friends{
+    background-color: rgb(75, 36, 36);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.friend{
+    max-height: 4000px;
+    width: 200px;
+    overflow: hidden;
+}
+
+.friend img{
+    width: 100%;
+    height: auto;
+}
+
+main{
+    display: flex;
+}
+
+aside{
+    flex: 2;
+}
+
+.main_content{
+    flex: 4;
+}
+
+.main_content img{
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(44, 44, 44);
+}
+footer nav{
+    background-color: burlywood;
+    color: black;
+}
