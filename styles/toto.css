@@ -21,3 +21,9 @@ img {
     max-width: 20%;
     max-height: 20%;
 }
+
+.bio {
+    display: flex;
+    max-width: 500px;
+    flex-wrap: wrap;
+}

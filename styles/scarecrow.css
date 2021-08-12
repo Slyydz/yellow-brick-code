@@ -16,3 +16,9 @@ nav ul{
 nav li{
     display: inline;
 }
+
+.bio {
+    display: flex;
+    max-width: 500px;
+    flex-wrap: wrap;
+}
